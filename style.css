@@ -1,0 +1,29 @@
+.container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 2em;
+    margin-top: 1em;
+    margin-bottom: 2em;
+    
+}
+.content {
+    border-radius: 4em;
+    background:darkblue;
+    padding: 1em;
+    font-family: Consolas, serif;
+    color:yellow;
+}
+button{
+    font-family: "Bradley Hand ITC", cursive;
+    font-size: 1.5em;
+    background-color: yellow;
+    transition: font-size 4s, background-color 6s;
+}
+button:hover {
+    font-size: 5em;
+    background-color: rgb(4, 12, 80);
+}
+body{
+    background-color: blue;
+}
